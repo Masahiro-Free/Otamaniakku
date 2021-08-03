@@ -1,5 +1,7 @@
 # Otamaniakku
-ポートフォリオ
+
+
+ルートディレクトリ
 
 command: docker-compose up 
 
