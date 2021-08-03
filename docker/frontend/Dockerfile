@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 RUN apk update && \
     apk upgrade && \
     apk add git
-RUN npm install -g npm && \
+RUN npm install -g npm \
     npm install --no-optional && \
     npm install -g core-js@latest && \
     npm install -g @vue/cli && \
